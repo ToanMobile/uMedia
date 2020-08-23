@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-
+import 'package:shared/shared.dart';
 import 'config/locator.dart';
 import 'config/router.dart';
 import 'generated/l10n.dart';
@@ -12,6 +12,7 @@ main() async {
   Provider.debugCheckInvalidValueType = null;
   WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
+  ScreenUtil.init(designSize: Size(1920, 1080), allowFontScaling: false);
   runApp(App());
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(statusBarColor: Colors.transparent, statusBarBrightness: Brightness.light),

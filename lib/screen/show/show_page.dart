@@ -44,7 +44,7 @@ class ShowState extends State<ShowPage> {
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
             scrollDirection: Axis.horizontal,
-            itemExtent: ScreenUtil.screenWidthDp / listCategory.length,
+            itemExtent: ScreenUtil().screenWidth / listCategory.length,
             itemCount: listCategory.length,
             itemBuilder: (context, position) {
               return ContainerButton(

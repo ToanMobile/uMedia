@@ -13,7 +13,6 @@ class HomePage extends StatefulWidget {
 class HomeState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    //ScreenUtil.init(context);
     return Scaffold(
       backgroundColor: ColorsUtils.dark,
       body: Stack(
