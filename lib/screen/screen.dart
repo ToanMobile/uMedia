@@ -1,0 +1,10 @@
+export 'package:umedia/screen/channel/channel_page.dart';
+export 'package:umedia/screen/home/home_page.dart';
+export 'package:umedia/screen/login/login_page.dart';
+export 'package:umedia/screen/movie/movies_page.dart';
+export 'package:umedia/screen/package/package_page.dart';
+export 'package:umedia/screen/parental/parental_page.dart';
+export 'package:umedia/screen/profile/profile_page.dart';
+export 'package:umedia/screen/recording/recording_page.dart';
+export 'package:umedia/screen/show/show_page.dart';
+export 'package:umedia/screen/tvguilde/tvguide_page.dart';
