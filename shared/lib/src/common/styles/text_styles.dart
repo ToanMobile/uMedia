@@ -10,7 +10,7 @@ class TextStylesUtils {
   static const FontRobotoLight = 'RobotoLight';
   static const FontRobotoMedium = 'RobotoMedium';
 
-  static final styleRegular12BrownGreyW400 =  TextStyle(
+  static final styleRegular12BrownGreyW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.brownGrey,
     fontSize: 36.sp,
@@ -18,7 +18,7 @@ class TextStylesUtils {
     fontStyle: FontStyle.normal,
   );
 
-  static final styleRegular12WhiteW400 =  TextStyle(
+  static final styleRegular12WhiteW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
     fontSize: 36.sp,
@@ -26,7 +26,7 @@ class TextStylesUtils {
     fontStyle: FontStyle.normal,
   );
 
-  static final styleRegular12Black =  TextStyle(
+  static final styleRegular12Black = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.black,
     fontSize: 36.sp,
@@ -34,7 +34,7 @@ class TextStylesUtils {
     fontStyle: FontStyle.normal,
   );
 
-  static final styleRegular12Blue =  TextStyle(
+  static final styleRegular12Blue = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.bg_chuhang,
     fontSize: 36.sp,
@@ -42,19 +42,19 @@ class TextStylesUtils {
     fontStyle: FontStyle.normal,
   );
 
-  static final styleRegular12PinkishOrangeW600 =  TextStyle(
+  static final styleRegular12PinkishOrangeW200 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.pinkishOrange,
     fontSize: 36.sp,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w200,
     fontStyle: FontStyle.normal,
-    letterSpacing: 0.21428574,
+    letterSpacing: 0.21288574,
   );
 
-  static final styleRegular14WhiteW400 =  TextStyle(
+  static final styleRegular14WhiteW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
-    fontSize: 42.sp,
+    fontSize: 28.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
@@ -62,36 +62,36 @@ class TextStylesUtils {
   static final style14W400Black = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.black,
-    fontSize: 42.sp,
+    fontSize: 28.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
 
-  static final styleRegular15WhiteW400 =  TextStyle(
+  static final styleRegular15WhiteW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
     fontSize: 45.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
-  static final styleRegular16WhiteW400 =  TextStyle(
+  static final styleRegular16WhiteW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
-    fontSize: 48.sp,
+    fontSize: 32.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
-  static final styleRegular18WhiteW400 =  TextStyle(
+  static final styleRegular18WhiteW400 = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
-    fontSize: 54.sp,
+    fontSize: 36.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
   static final style16W400Black = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.black,
-    fontSize: 48.sp,
+    fontSize: 32.sp,
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
   );
@@ -99,62 +99,62 @@ class TextStylesUtils {
   static final style14Black = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.black,
-    fontSize: 42.sp,
+    fontSize: 28.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleMedium18Black = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.black,
-    fontSize: 54.sp,
+    fontSize: 36.sp,
     fontStyle: FontStyle.normal,
   );
   static final styleMedium16Black = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.black,
-    fontSize: 48.sp,
+    fontSize: 32.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleMedium18White = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.white,
-    fontSize: 54.sp,
+    fontSize: 36.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleMedium20Black = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.black,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleMedium20TextSelect = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.black,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleMedium20White = TextStyle(
     fontFamily: FontRobotoMedium,
     color: ColorsUtils.white,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleRegular20TextSelect = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.black,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
 
   static final styleRegular20White = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.white,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
 
@@ -186,71 +186,71 @@ class TextStylesUtils {
     fontStyle: FontStyle.normal,
   );
 
-  static  styleBold24(Color color) => TextStyle(
+  static styleBold24(Color color) => TextStyle(
         fontFamily: FontRobotoRegular,
         color: color,
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w200,
   fontSize: 72.sp,
         fontStyle: FontStyle.normal,
       );
 
-  static  styleBold22(Color color) => TextStyle(
+  static styleBold22(Color color) => TextStyle(
         fontFamily: FontRobotoRegular,
         color: color,
-        fontWeight: FontWeight.w600,
-  fontSize: 66.sp,
+        fontWeight: FontWeight.w200,
+  fontSize: 44.sp,
         fontStyle: FontStyle.normal,
       );
 
-  static  styleBold20(Color color) => TextStyle(
+  static styleBold20(Color color) => TextStyle(
         fontFamily: FontRobotoRegular,
         color: color,
-        fontWeight: FontWeight.w600,
-    fontSize: 60.sp,
+        fontWeight: FontWeight.w200,
+    fontSize: 40.sp,
         fontStyle: FontStyle.normal,
       );
 
-  static  styleBold18(Color color) => TextStyle(
+  static styleBold18(Color color) => TextStyle(
         fontFamily: FontRobotoRegular,
         color: color,
-        fontWeight: FontWeight.w600,
-    fontSize: 54.sp,
+        fontWeight: FontWeight.w200,
+    fontSize: 36.sp,
         fontStyle: FontStyle.normal,
       );
 
-  static  styleBold16(Color color) => TextStyle(
+  static styleBold16(Color color) => TextStyle(
         fontFamily: FontRobotoRegular,
         color: color,
-        fontWeight: FontWeight.w600,
-    fontSize: 48.sp,
+        fontWeight: FontWeight.w200,
+    fontSize: 32.sp,
         fontStyle: FontStyle.normal,
       );
-  static  styleBold13(Color color) => TextStyle(
+  static styleBold13(Color color) => TextStyle(
     fontFamily: FontRobotoRegular,
     color: color,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w200,
     fontSize: 39.sp,
     fontStyle: FontStyle.normal,
   );
-  static  styleBold14(Color color) => TextStyle(
+  static styleBold14(Color color) => TextStyle(
     fontFamily: FontRobotoRegular,
     color: color,
-    fontWeight: FontWeight.w600,
-    fontSize: 42.sp,
+    fontWeight: FontWeight.w200,
+    fontSize: 28.sp,
     fontStyle: FontStyle.normal,
   );
-  static  styleBold24Regular(Color color) => TextStyle(
+  static styleBold24Regular(Color color) => TextStyle(
     fontFamily: FontRobotoRegular,
     color: color,
     fontWeight: FontWeight.w400,
     fontSize: 72.sp,
     fontStyle: FontStyle.normal,
   );
-  static  styleBold18Regular(Color color) => TextStyle(
+  static styleBold18Regular(Color color) => TextStyle(
     fontFamily: FontRobotoRegular,
     color: color,
     fontWeight: FontWeight.w400,
-    fontSize: 54.sp,
+    fontSize: 36.sp,
     fontStyle: FontStyle.normal,
   );
 
@@ -258,14 +258,14 @@ class TextStylesUtils {
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.textwelcome,
     fontWeight: FontWeight.w300,
-    fontSize: 78.sp,
+    fontSize: 48.sp,
     fontStyle: FontStyle.normal,
   );
   static final styleRegular24GREY = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.textwelcome,
     fontWeight: FontWeight.w300,
-    fontSize: 78.sp,
+    fontSize: 48.sp,
     fontStyle: FontStyle.normal,
   );
 
@@ -273,21 +273,21 @@ class TextStylesUtils {
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.colortextcard,
     fontWeight: FontWeight.w300,
-    fontSize: 66.sp,
+    fontSize: 44.sp,
     fontStyle: FontStyle.normal,
   );
   static final styleRegular16GREY = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.colortextgrey,
     fontWeight: FontWeight.w400,
-    fontSize: 48.sp,
+    fontSize: 32.sp,
     fontStyle: FontStyle.normal,
   );
   static final styleRegular20GREY = TextStyle(
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.colortextgrey,
     fontWeight: FontWeight.w500,
-    fontSize: 60.sp,
+    fontSize: 40.sp,
     fontStyle: FontStyle.normal,
   );
   static final styleRegular24TEXTGREY = TextStyle(
@@ -301,7 +301,7 @@ class TextStylesUtils {
     fontFamily: FontRobotoRegular,
     color: ColorsUtils.colortextgrey,
     fontWeight: FontWeight.w500,
-    fontSize: 42.sp,
+    fontSize: 28.sp,
     fontStyle: FontStyle.normal,
   );
 }

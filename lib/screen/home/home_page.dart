@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shared/shared.dart';
 import 'package:shared/src/common/screen/flutter_screenutil.dart';
 import 'package:umedia/config/router.dart';
@@ -30,41 +31,7 @@ class HomeState extends State<HomePage> {
                 ),
                 flex: 1,
               ),
-              Container(
-                height: 200.h,
-                child: Row(
-                  children: <Widget>[
-                    ContainerButton(
-                      isExpanded: true,
-                      title: S.of(context).homeShows.toUpperCase(),
-                      cb: () {
-                        Navigator.pushNamed(context, RouteName.show);
-                      },
-                    ),
-                    ContainerButton(
-                      isExpanded: true,
-                      title: S.of(context).homeMovies.toUpperCase(),
-                      cb: () {
-                        Navigator.pushNamed(context, RouteName.movies);
-                      },
-                    ),
-                    ContainerButton(
-                      isExpanded: true,
-                      title: S.of(context).homeTVGuide.toUpperCase(),
-                      cb: () {
-                        Navigator.pushNamed(context, RouteName.tvGuide);
-                      },
-                    ),
-                    ContainerButton(
-                      isExpanded: true,
-                      title: S.of(context).homeRecordings.toUpperCase(),
-                      cb: () {
-                        Navigator.pushNamed(context, RouteName.recording);
-                      },
-                    ),
-                  ],
-                ),
-              ),
+              buildMenu(),
               Expanded(
                 child: Row(
                   children: <Widget>[
@@ -75,7 +42,7 @@ class HomeState extends State<HomePage> {
                       isCenter: false,
                       image: ImagesUtils.bgPackage,
                       cb: () {
-                        Navigator.pushNamed(context, RouteName.package);
+                        Get.toNamed(RouteName.package);
                       },
                     ),
                     ContainerButton(
@@ -85,7 +52,7 @@ class HomeState extends State<HomePage> {
                       isCenter: false,
                       image: ImagesUtils.bgChannelList,
                       cb: () {
-                        Navigator.pushNamed(context, RouteName.channel);
+                        Get.toNamed(RouteName.channel);
                       },
                     ),
                     Expanded(
@@ -98,7 +65,7 @@ class HomeState extends State<HomePage> {
                             isCenter: false,
                             image: ImagesUtils.bgParentalControl,
                             cb: () {
-                              Navigator.pushNamed(context, RouteName.parental);
+                              Get.toNamed(RouteName.parental);
                             },
                           ),
                           ContainerButton(
@@ -108,7 +75,7 @@ class HomeState extends State<HomePage> {
                             isCenter: false,
                             image: ImagesUtils.bgHomeLogin,
                             cb: () {
-                              Navigator.pushNamed(context, RouteName.login);
+                              Get.toNamed(RouteName.login);
                             },
                           ),
                         ],
@@ -161,4 +128,40 @@ class HomeState extends State<HomePage> {
         ),
         flex: 1,
       );
+
+  Widget buildMenu() => Container(
+    height: 120.h,
+    child: Row(
+      children: <Widget>[
+        ContainerButton(
+          isExpanded: true,
+          title: S.of(context).homeShows.toUpperCase(),
+          cb: () {
+            Get.toNamed(RouteName.show);
+          },
+        ),
+        ContainerButton(
+          isExpanded: true,
+          title: S.of(context).homeMovies.toUpperCase(),
+          cb: () {
+            Get.toNamed(RouteName.movies);
+          },
+        ),
+        ContainerButton(
+          isExpanded: true,
+          title: S.of(context).homeTVGuide.toUpperCase(),
+          cb: () {
+            Get.toNamed(RouteName.tvGuide);
+          },
+        ),
+        ContainerButton(
+          isExpanded: true,
+          title: S.of(context).homeRecordings.toUpperCase(),
+          cb: () {
+            Get.toNamed(RouteName.recording);
+          },
+        ),
+      ],
+    ),
+  );
 }

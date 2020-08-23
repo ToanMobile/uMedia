@@ -12,7 +12,7 @@ main() async {
   Provider.debugCheckInvalidValueType = null;
   WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
-  ScreenUtil.init(designSize: Size(1920, 1080), allowFontScaling: false);
+  ScreenUtil.init(designSize: Size(1920, 1080), allowFontScaling: true);
   runApp(App());
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(statusBarColor: Colors.transparent, statusBarBrightness: Brightness.light),
